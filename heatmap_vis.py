@@ -5,7 +5,6 @@ import bagnets.pytorch
 from foolbox.utils import imagenet_example
 import matplotlib.pyplot as plt
 from matplotlib.pyplot import figure
-from skimage.io import imread
 
 pytorch_model = bagnets.pytorch.bagnet33(pretrained=True).cuda()
 
